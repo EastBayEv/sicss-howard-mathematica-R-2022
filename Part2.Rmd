@@ -48,8 +48,6 @@ To utilize the power of the tidyverse, we will speak a slightly different dialec
 
 The pipe operator `%>%` originally comes from the `magrittr` package. The idea behind the pipe operator is [similar to](https://www.datacamp.com/community/tutorials/pipe-r-tutorial) what we learned about chaining functions in high school. f: B -> C and g: A -> B can be expressed as $f(g(x))$. The pipe operator chains operations. When you read pipe operator, read as "and then" (Wickham's recommendation). The keyboard shortcut is ctrl + shift + M. The key idea here is not creating temporary variables and focusing on verbs (functions). 
 
-# We'll learn more about this functional programming paradigm later on. (double check)
-
 Pipes permit the user to accomplish more complex, and more varieties of, tasks in a more understandable way because the code can simply be read from left to right. The pipe takes the thing to the left of the pipe and "pipes" it into whatever is to the right of the pipe. This can continue in perpetuity until the task is accomplished. 
 
 ![Concept map for pipe operator. By Jeroen Janssens, Monica Alonso.](https://education.rstudio.com/blog/2020/09/concept-maps/pipe-operator.png)
@@ -65,8 +63,6 @@ Two main differences between `pivot_longer()` and `pivot_wider()`:
 - The number of required arguments for `pivot_wider()` is 2 (names\_from, values\_from).
 
 ## `pivot_longer()` - make it longer!
-
-![What pivot\_longer() does (Source: <https://www.storybench.org>)](https://www.storybench.org/wp-content/uploads/2019/08/pivot-longer-image.png)
 
 Let's take a look at some cases of untidy data.
 
